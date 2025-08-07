@@ -1,0 +1,90 @@
+body {
+  justify-items: center;
+  padding: 50px;
+}
+
+.EventContainer {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 25px;
+  width: 420px;
+  box-shadow: 0 4px 10px rgb(235, 137, 235);
+}
+
+.label1 {
+  font-size: 27px;
+  font-weight: 500;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.EventContainer input {
+  font-size: 18px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.label2 {
+  font-size: 27px;
+  font-weight: 500;
+  color: black;
+  font-weight: bold;
+}
+
+.EventContainer button {
+  background: rgb(235, 137, 235);
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.EventContainer button:hover {
+  background: rgb(152, 27, 152);
+  color: white;
+}
+
+.EventContainer h2 {
+  font-size: 23px;
+  color: black;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.loicn2 {
+  margin-left: -20px;
+  font-size: 20px;
+
+}
+
+.visitorLink {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.arricn2{
+  font-size: 20px;
+}
+
+.visit {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.visit:hover {
+  color: rgb(152, 27, 152);
+}

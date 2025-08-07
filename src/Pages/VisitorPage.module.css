@@ -1,0 +1,94 @@
+body {
+  justify-content: center;
+  padding: 50px;
+}
+
+.visitorContainer {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 25px;
+  width: 420px;
+  box-shadow: 0 4px 10px rgb(235, 137, 235);
+}
+
+.visitorContainer label {
+  font-size: 27px;
+  font-weight: 500;
+  color: black;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.visitorContainer input {
+  font-size: 18px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.visitorContainer button {
+  background: rgb(235, 137, 235);
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+}
+
+.visitorContainer button:hover {
+  background: rgb(152, 27, 152);
+  color: white;
+}
+
+.visitorContainer h1 {
+  font-size: 23px;
+  color: black;
+  margin-top: 15px;
+}
+
+.visitorContainer h2 {
+  font-size: 23px;
+  color: black;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.listTag {
+  padding-left: 18px;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.icn {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.eventLink {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.icn2 {
+  font-size: 20px;
+}
+
+.linkTag {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.linkTag:hover {
+  color: rgb(152, 27, 152);
+}

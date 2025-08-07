@@ -41,7 +41,7 @@ function App() {
         handleDeleteEvent,
       }}
     >
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.DEV ? "/" : "/React_Assignment/"}>
         <Routes>
           <Route
             path="/"
